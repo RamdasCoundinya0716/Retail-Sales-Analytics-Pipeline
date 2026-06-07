@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="VS9iEmXGfuyJYrJBLwPT">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZJQn9QOUanw2keehIJoM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Fact_Sales" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Dim_Store" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Dim_Product" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Dim_Customer" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Dim_Date" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;customer_id (pk)&lt;/div&gt;&lt;div&gt;customer_name&lt;/div&gt;&lt;div&gt;gender&lt;/div&gt;&lt;div&gt;city&lt;/div&gt;&lt;div&gt;state&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="680" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;product_id (pk)&lt;/div&gt;&lt;div&gt;product_name&lt;/div&gt;&lt;div&gt;category&lt;/div&gt;&lt;div&gt;brand&lt;/div&gt;&lt;div&gt;price&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="320" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;store_id (pk)&lt;/div&gt;&lt;div&gt;store_name&lt;/div&gt;&lt;div&gt;city&lt;/div&gt;&lt;div&gt;state&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;date_id (PK)&lt;/div&gt;&lt;div&gt;full_date&lt;/div&gt;&lt;div&gt;day&lt;/div&gt;&lt;div&gt;month&lt;/div&gt;&lt;div&gt;month_name&lt;/div&gt;&lt;div&gt;quarter&lt;/div&gt;&lt;div&gt;year&lt;/div&gt;&lt;div&gt;day_of_week&lt;/div&gt;&lt;div&gt;weekend_flag&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="190" x="680" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJQn9QOUanw2keehIJoM-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sale_id (pk, uuid)&lt;br&gt;order_id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;date_id (fk)&lt;/div&gt;&lt;div&gt;customer_id&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;product_id&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;store_id&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;quantity&lt;/div&gt;&lt;div&gt;unit_price&lt;/div&gt;&lt;div&gt;sales_amount&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="520" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
